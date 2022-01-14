@@ -7,7 +7,7 @@ var empSvc = new EmployeeService();
 
 router.get("/demo", async(req,res)=>{
     
-    res.status(200).json("Demo called");
+    res.status(200).json("Demo called for autobuild.");
 });
 
 //Get all employees
